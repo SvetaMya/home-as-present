@@ -1,0 +1,301 @@
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 500 20px / 29px Oswald, sans-serif;
+  background-color: #bf0000;
+  color: #fff;
+  border: 2px solid #bf0000;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.form__width {
+  max-width: 446px;
+  width: 100%;
+}
+
+.form__homeGift {
+  max-width: 1140px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 24px 46px 0 44px;
+}
+
+.sertificate__title {
+  font: 500 32px / 47px Oswald, sans-serif;
+  color: #000;
+  letter-spacing: -2.3px;
+  word-spacing: 3.94px;
+  text-align: center;
+  margin: 0px 0 17px 2px;
+}
+
+.sertificate__img {
+  width: 100%;
+  max-width: 1049px;
+  object-fit: cover;
+  margin: 0 0 0 1px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  padding: 40px 31px 0px 19px;
+}
+
+.form__title {
+  font: 500 29px / 41px Oswald, sans-serif;
+  color: #bf0000;
+  letter-spacing: -2.1px;
+  word-spacing: 0.1px;
+  margin: 0 0 0 2px;
+}
+
+.form__text {
+  font: 400 15px / 20px Open sans, sans-serif;
+  color: #000;
+  letter-spacing: 0.14px;
+  word-spacing: 2.5px;
+  margin: 9px 0 0px 2px;
+}
+
+.form__certificate {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin: 33px 0px 0px 0px;
+  max-width: 447px;
+}
+
+.form__input::placeholder {
+  font: 400 15px / 18px Open sans, sans-serif;
+  letter-spacing: 0.22px;
+  word-spacing: 1.1px;
+  color: #8a8a8a;
+}
+
+.form__input {
+  font: 400 15px / 18px Open sans, sans-serif;
+  letter-spacing: 0.22px;
+  word-spacing: 1.1px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 14px 0px 11px 14px;
+}
+
+.form__email {
+  margin: 1px 0 0 0;
+  padding: 10px 0px 15px 14px;
+}
+
+.form__certificate-btn {
+  word-spacing: 2.1px;
+  letter-spacing: -0.7px;
+  margin: 29px 0px 0px 1px;
+  padding: 6px 10px;
+  min-height: 45px;
+}
+
+.form__privacy {
+  font: 400 14px / 20px Open sans, sans-serif;
+  color: #000;
+  letter-spacing: 0.14px;
+  word-spacing: -1.5px;
+  margin: 12px 0px 67px 2px;
+  max-width: 448px;
+}
+
+.form__privacy a {
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
+}
+
+.details {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.details__title {
+  text-transform: uppercase;
+  font: 700 15px / 18px Open sans, sans-serif;
+  letter-spacing: 0.69px;
+  word-spacing: 2.2px;
+  background-color: #e5e5e5;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  transition: 0.3s;
+  padding: 12px 11px 0px 33px;
+  margin: 21px 0px 0px 1px;
+  min-height: 43px;
+}
+
+.details__title::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.details[open] .details__title::after {
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.details__content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding: 20px 32px;
+  transition: 0.3s;
+}
+
+.details__content p:last-child {
+  margin-bottom: 0;
+}
+
+.details__content p:first-child {
+  margin-top: 0;
+}
+
+.details__down {
+  padding: 12px 0 0 34px;
+  margin: 18px 0 0 1px;
+}
+
+.form__callback {
+  max-width: 1057px;
+}
+
+.callback__input::placeholder {
+  font: 400 16px / 19px Open Sans, sans-serif;
+  word-spacing: 1.7px;
+  letter-spacing: -1.2px;
+}
+
+.callback {
+  max-width: 1140px;
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 31px 45px 70px 45px;
+}
+
+.callback__title {
+  font: 500 28px / 39px Oswald, sans-serif;
+  word-spacing: 0.91px;
+  letter-spacing: -2px;
+  margin: 27px 0px 0px 2px;
+  padding: 0px 10px 0px 32px;
+}
+
+.callback__text {
+  font: 400 16px / 22px Open Sans, sans-serif;
+  padding: 8px 33px 52px;
+}
+
+.callback__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 17px;
+  margin: 0px 0px 0 34px;
+}
+
+.callback__input {
+  font: 400 16px / 19px Open Sans, sans-serif;
+  word-spacing: 1.7px;
+  letter-spacing: -1.2px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  padding: 13px 9px 9px 13px;
+  margin: 0px 0px 0px 0px;
+}
+
+.callback__inputName {
+  display: flex;
+  max-width: 447px;
+  width: 100%;
+  margin-right: 16px;
+  padding: 14px 9px 10px 13px;
+}
+
+.callback__inputTel {
+  display: flex;
+  max-width: 224px;
+  width: 100%;
+  margin-right: 14px;
+  padding: 14px 9px 10px 16px;
+}
+
+.callback__btn {
+  min-width: 315px;
+  min-height: 45px;
+  word-spacing: 0.81px;
+  letter-spacing: -1.1px;
+  margin: 0;
+  padding: 0;
+}
+
+.callback__checkbox {
+  font: 500 15px / 21px Open Sans, sans-serif;
+  word-spacing: -1.59px;
+  letter-spacing: 0.3px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 23px 0px 0px 33px;
+}
+
+.checkbox-btn {
+  appearance: none;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  position: relative;
+  margin: 0 6px 0 0;
+  background-color: #fff;
+}
+
+.checkbox-btn:checked {
+  background-color: #0a58ff;
+  border-color: #0a58ff;
+}
+
+.checkbox-btn::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.checkbox-btn:checked::after {
+  opacity: 1;
+}
+
+.callback__checkbox-privacy {
+  font: 500 15px / 21px Open Sans, sans-serif;
+}
